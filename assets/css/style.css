@@ -1,0 +1,462 @@
+body{
+    background-color:  #d9d9d9;
+}
+/* this part is the header */
+header {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    margin:0;
+    
+}
+.divheader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+h1{
+    display: none;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    height: 40px;
+    padding: 20px 10px;
+}
+        
+nav {
+    float: right;
+    margin: 30px 10px 0 0;
+    color: gray;
+    text-decoration: underline;
+}
+nav a{
+    padding: 0 10px;
+
+}
+nav a:hover {
+    color: white;
+    background-color: #4aaaa5;
+    margin: 30px 0;
+}
+/* This part is for the index.html */
+/* this is the Main content part */
+.bioContainer{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    }
+
+.picture{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0 0 20px;
+}
+p{
+    color: #777777;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+/* This is the portfolio part*/
+.portfolio{
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: auto;
+    min-height: 100vh;
+}
+h3{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0 0 20px;
+}
+/* pictures buttons */
+.picture1{
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+.picture1 img {
+    width: 100%;
+
+}
+.text1{
+    position: absolute;
+    top:50px;
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    /* z-index: 2; */
+}
+.picture2{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+.text2{
+    position: absolute;
+}
+.picture3{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    clear: left;
+}
+.text3{
+    position: absolute;
+}
+.picture4{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    float: left;
+}
+.text4{
+    position: absolute;
+}
+.picture5{
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    clear: left;
+}
+.text5{
+    position: absolute;
+}
+
+/* this is the contact part */
+.contactContainer{
+    width: 100% ;
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: auto;
+    min-height: 100vh;
+}
+h4{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0 0 20px;
+
+}
+.t1{
+    float: left;
+    margin-left: 10px;
+    
+}
+
+
+.t2{
+    clear: left;
+    margin-left: 10px;
+}
+
+.t3{
+    clear: left;
+    margin-left: 10px;
+}
+.txt{
+    width:450px;
+    margin-bottom: 15px;
+}
+.button1{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* this part is the footer */
+footer{
+    background-color: #666666;
+    /* position: fixed; */
+    
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    text-align: center;
+    padding: 30px 0 5px;
+    border-top: 6px solid #4aaaa5;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+@media only screen and (min-width:768px){
+    h1{
+        display: inline;
+        float: left;
+        background-color: #4aaaa5;
+        color: white;
+        margin: 0;
+        height: 40px;
+        padding: 20px 10px;
+    }
+    h2{
+        display: none;
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 0 0 20px;
+    }
+    .bioContainer{
+        width: 600px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        }
+    .footer{
+            background-color: #666666;
+            /* position: fixed; */
+            
+            width: 100%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-small;
+            text-align: center;
+            padding: 30px 0 5px;
+            border-top: 6px solid #4aaaa5;
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+        }              
+}
+@media only screen and (min-width:980px){
+    header {
+        background-color: white;
+        width: 100%;
+        height: 80px;
+        border-bottom: 1px solid gray;
+        padding: 0;
+        margin:0;
+        
+    }
+    .divheader {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 960px;
+        margin: 0 auto;
+        overflow: auto;
+        
+    }
+    h1{
+        float: left;
+        background-color: #4aaaa5;
+        color: white;
+        margin: 0;
+        height: 40px;
+        padding: 20px 10px;
+    }
+            
+    nav {
+        float: right;
+        margin: 30px 10px 0 0;
+        color: gray;
+        text-decoration: underline;
+    }
+    nav a{
+        padding: 0 10px;
+    
+    }
+    nav a:hover {
+        color: white;
+        background-color: #4aaaa5;
+        margin: 30px 0;
+    }
+    /* This part is for the index.html */
+    /* this is the Main content part */
+    .bioContainer{
+        width: 960px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        }
+    
+    .picture{
+        width: 200px;
+        height: auto;
+        margin: 20px;
+        float: left;
+    }
+    h2{
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 0 0 20px;
+    }
+    p{
+        color: #777777;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 20px;
+    }
+    /* This is the portfolio part*/
+    .portfolio{
+        width: 960px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        overflow: auto;
+        min-height: 100vh;
+    }
+    h3{
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 0 0 20px;
+    }
+    /* pictures buttons */
+    .picture1{
+        position: relative;
+        width: 30%;
+        height: auto;
+        margin: 20px;
+        float: left;
+    }
+    .picture1 img {
+        width: 100%;
+    
+    }
+    .text1{
+        position: absolute;
+        top:50px;
+        background-color: blue;
+        width: 100%;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: white;
+        /* z-index: 2; */
+    }
+    .picture2{
+        position: relative;
+        width: 200px;
+        height: auto;
+        margin: 20px;
+        float: left;
+    }
+    .text2{
+        position: absolute;
+    }
+    .picture3{
+        position: relative;
+        width: 200px;
+        height: auto;
+        margin: 20px;
+        clear: left;
+    }
+    .text3{
+        position: absolute;
+    }
+    .picture4{
+        position: relative;
+        width: 200px;
+        height: auto;
+        margin: 20px;
+        float: left;
+    }
+    .text4{
+        position: absolute;
+    }
+    .picture5{
+        position: relative;
+        width: 200px;
+        height: auto;
+        margin: 20px;
+        clear: left;
+    }
+    .text5{
+        position: absolute;
+    }
+    
+    /* this is the contact part */
+    .contactContainer{
+        width: 960px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        overflow: auto;
+        min-height: 100vh;
+    }
+    h4{
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px 0 0 20px;
+    
+    }
+    .t1{
+        float: left;
+        margin-left: 10px;
+        
+    }
+    #fname{
+        width: 930px;
+    }
+    
+    .t2{
+        clear: left;
+        margin-left: 10px;
+    }
+    #lname{
+        width: 930px;
+    }
+    .t3{
+        clear: left;
+        margin-left: 10px;
+    }
+    #subject{
+        width: 930px;
+    }
+    .button1{
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    /* this part is the footer */
+    footer{
+        background-color: #666666;
+        /* position: fixed; */
+        bottom: 0;
+        width: 100%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        text-align: center;
+        padding: 30px 0 5px;
+        border-top: 6px solid #4aaaa5;
+        
+    }
+}
